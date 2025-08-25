@@ -1,0 +1,7 @@
+print("Give us 3 numbers :)")
+numberOne = int(input('First number: '))
+numberTwo = int(input('Second number: '))
+numberThree = int(input('Third number: '))
+print(f'The sum of the three numbers is: {numberOne + numberTwo + numberThree}')
+print(f'The product of the three numbers is: {numberOne * numberTwo * numberThree}')
+print(f'The average of the three numbers is: {(numberOne + numberTwo + numberThree)/3:.0f}')
